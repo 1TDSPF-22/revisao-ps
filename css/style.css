@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c090c;
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 0.1rem;
+}
+
+.menu > a{
+    color: #fff;
+    background-color: #0000FF;
+    padding: 3rem 0;
+}
+
+.menu > a:hover{
+    background-color: brown;
+}
+
+.cadastro > fieldset{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    border: none;
+    
+}
+
+.cadastro div{
+    margin: 0.1rem 0;
+}
+
+fieldset > div > input{
+    border-radius: 4px;
+}
