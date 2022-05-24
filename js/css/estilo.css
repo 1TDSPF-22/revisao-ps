@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E1E2;
+    color: #fff;
+}
+
+.menu{
+    display: flex;
+    column-gap: normal;
+    gap: 2rem;
+}
+
+.menu > a{
+    
+}
