@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0c090c;
+    color: #fff;
+}
+
+.menu {
+    display: flex;
+    column-gap: normal;
+    gap: 0.1rem;
+}
+
+.menu > a{
+    color: #fff;
+    background-color: #0000FF;
+    padding: 3rem 0;
+}
+
+.menu > a:hover{
+    background-color: brown;
+}
+
+.cadastro{
+    display: flex;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.5rem;
+}
+
+.cadastro > fieldset{
+    display: flex;
+    flex-direction: column;
+    border: none;
+}
+
+.cadastro  legend {
+    margin: 0 auto;
+}
+
+.cadastro div {
+    margin: 0.1rem 0;
+}
