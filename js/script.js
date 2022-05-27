@@ -17,6 +17,9 @@ function validaInputs(){
                 return
             }
         }
+        
+        //PRECISAMOS DAR UM SUBMIT NO FORMULÁRIO
+        document.getElementsByClassName("cadastro")[0].submit()
 }
 
     //Atrelar um evento ao botão e criar uma função do corpo do evento
