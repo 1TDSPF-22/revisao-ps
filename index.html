@@ -4,59 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>REvisão</title>
-    <script src="./js/script.js"></script>
-    <link rel="stylesheet" href="./js/css/estilo.css">
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>REVISÃO</title>
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Revisão</h1>
-            <nav>
-                <a href="#">Exemplo 1</a>
-                <a href="#">Exemplo 2</a>
-                <a href="#">Exemplo 3</a>
+        <header class="cabecalho">
+            <h1 class="logo">REVISÃO</h1>
+            <nav class="menu">
+                <a href="#" class="active">Exemplo-1</a>
+                <a href="#">Exemplo-2</a>
+                <a href="#">Exemplo-3</a>
             </nav>
-            <form class="cadastro"action="index.html" method="get"></form>
-            <fieldset>
-                <legend>new</legend>
-                <div>
-                    <input type="text" name="nmUser" id="nmUser" placeholder="nome">
-                </div>
-                <div>
-                    <input type="email" name="emailUser" id="emailUser" placeholder="email">
-                </div>
-                <div>
-                    <input type="button" value="btnNews">
-                </div>
-            </fieldset>
+            <form class="cadastro" action="index.html" method="get">
+                <fieldset>
+                    <legend>NEWSLETTER</legend>
+                    <div>
+                        <input type="text" name="nmUser" id="nmUserId" placeholder="Nome">
+                    </div>
+                    <div>
+                        <input type="text" name="snmUser" id="snmUserId" placeholder="Sobrenome">
+                    </div>
+                    <div>
+                        <input type="email" name="emailUser" id="emailUserId" placeholder="Email">
+                    </div>
+                    <div>
+                        <input type="button" id="btnNews" value="Assinar">
+                    </div>
+                </fieldset>
+            </form>
         </header>
 
-        <h2>Seção de Imgangens</h2>
+        <h2>SEÇÃO DE IMAGENS</h2>
         <section>
             <div>
-                <img src="" alt="">
-                <p>Legenda</p>
+                <img src="./img/lobo1.jpg.url" alt="">
+                <p>LEGENDA</p>
             </div>
             <div>
-                <img src="" alt="">
-                <p>Legenda</p>
+                <img src="./img/lobo2.jpg.url" alt="">
+                <p>LEGENDA</p>
             </div>
             <div>
-                <img src="" alt="">
-                <p>Legenda</p>
+                <img src="./img/lobo3.jpg.url" alt="">
+                <p>LEGENDA</p>
             </div>
             <div>
-                <img src="" alt="">
-                <p>Legenda</p>
+                <img src="./img/lobo2.jpg.url" alt="">
+                <p>LEGENDA</p>
             </div>
             <div>
-                <img src="" alt="">
-                <p>Legenda</p>
+                <img src="./img/lobo3.jpg.url" alt="">
+                <p>LEGENDA</p>
             </div>
             <div>
-                <img src="" alt="">
-                <p>Legenda</p>
+                <img src="./img/lobo1.jpg.url" alt="">
+                <p>LEGENDA</p>
             </div>
         </section>
 
@@ -67,6 +71,7 @@
                 <a href="#">Github</a>
             </nav>
         </footer>
+
     </div>
 </body>
 </html>
