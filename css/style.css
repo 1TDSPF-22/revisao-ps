@@ -22,7 +22,6 @@
 
 .menu > a{
     color: #fff;
-    background-color: #0000FF;
     padding: 3rem 0;
 }
 
@@ -47,4 +46,8 @@
 
 .cadastro legend{
     margin: 0 auto;
+}
+
+.active{
+    background-color: #0000ff;
 }

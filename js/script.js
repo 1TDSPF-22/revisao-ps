@@ -1,4 +1,4 @@
-
+ 
 
 //Recuperar o botão de envio das informações
 //const botaoEnviar = document.querySelector("#btnNews")
@@ -21,6 +21,9 @@ function validaCampos(){
                 return                
             }
     }
+
+    //PRECISAMOS DAR UM SUBMIT NO FORMULÁRIO
+    document.getElementsByClassName("cadastro")[0].submit()
 }
 
 //Atrelar um evento ao botão e criar uma funçÃo no corpo do evento.
